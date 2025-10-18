@@ -3,7 +3,7 @@ $name = 'Павлов Эрик Сергеевич';
 $age = 19;
 ?>
 
-<div>
-<p>Меня зовут: <?= $name?></p>
-<p>Мой возраст: <?= $age?></p>
-</div>
+<title><?= $name?></title>
+<?for ($age; $age > 0; $age-- ) :?>
+    <p> <?= $age?> </p>
+    <?endfor?>
