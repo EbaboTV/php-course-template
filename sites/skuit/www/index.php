@@ -1,3 +1,5 @@
-<?
-include_once './lab0/index.php';
+
+<?php
+// Подключаем лабораторную работу №7 (относительный путь)
+include_once __DIR__ . '/lab7/main.php';
 ?>
